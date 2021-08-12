@@ -91,3 +91,33 @@ footer {
   margin: 10px;
   background-color: white;
 }
+
+@media screen and (max-width: 900px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .drum {
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 3rem;
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .alert {
+    display: block;
+    color: #fff;
+    font-size: 10px;
+  }
+  .drum {
+    font-size: 2rem;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 10px;
+    border-width: 5px;
+  }
